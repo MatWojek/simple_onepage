@@ -1,0 +1,53 @@
+*{margin:0;padding:0;scroll-behavior:smooth;}
+body{background-color:black}
+nav{width:100%;height:80px;background: linear-gradient(to bottom, #0099cc 0%, #66ffff 100%);position:sticky;top:0;}
+	nav ul{text-align:center;line-height:80px;}
+	nav li{display:inline;padding:20px;}
+	nav a{color:black;font-weight:bold;text-decoration:none;font-size:2em;font-family: 'Abril Fatface', cursive;color:#000;}
+header{width:100vw;height:100vh;background-image:url(grafika/pixar.jpg);background-size:100%;background-repeat:no-repeat;background-size:cover;background-position:center;}
+	header h1{animation-duration:20s;animation-iteration-count:infinite;animation-name:animacja1;color:white;font-size:4em;text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;text-align:center;padding-top:250px;font-family: 'Lora', serif;color:linear-gradient(to bottom, #0099cc 0%, #66ffff 100%);letter-spacing:10px;}
+#aktualnosci{padding-bottom:100px;width:80%;margin:auto;background-color:green;background-color:white;}
+	#aktualnosci h2{padding:20px;color:#000;padding-top:80px;font-family: 'Abril Fatface', cursive;letter-spacing:3px;}
+	#aktualnosci p{padding:20px;color:#000;font-family: 'Inconsolata', monospace;} 
+#galeria{padding-bottom:50px;width:80%;margin:auto;background-color:#fff;}
+	#galeria h2{padding:20px;color:#000;padding-top:100px;font-family: 'Abril Fatface', cursive;letter-spacing:3px;}
+	#galeria p{padding:20px;color:#000;font-family: 'Abril Fatface', cursive;}
+#kontakt{padding-bottom:80px;width:80%;margin:auto;background-color:blue;background-color:#fff;}
+	#kontakt h2{padding:20px;color:#000;padding-top:100px;font-family: 'Abril Fatface', cursive;letter-spacing:3px;}
+	#kontakt p{text-align:center;color:#000;font-family: 'Abril Fatface', cursive;}
+	#kontakt iframe{width:90%;border:1px solid #0099ff;padding:5px;}
+footer{width:80%;height:80px;background-color:white;margin:auto}
+	footer p{text-align:center;line-height:80px;font-weight:bold;font-size:1.2em;font-family: 'Abril Fatface', cursive;color:#000;}
+	footer img{width:50px;padding:10px}
+.o1{border:2px solid #000;border-top-left-radius:60px;border-bottom-right-radius:60px;border-bottom-left-radius:10px;border-top-right-radius:10px;}
+.o2{border:2px hidden;border-radius:50px;box-shadow:2px 2px 5px #003300}
+.o3{border:2px hidden;border-top-left-radius:50px;border-top-right-radius:50px;border-bottom-right-radius:50px;border-bottom-left-radius:50px;box-shadow:2px 2px 5px #ff9900}
+.o4{border:2px hidden;border-top-left-radius:50px;border-top-right-radius:50px;border-bottom-right-radius:50px;border-bottom-left-radius:50px;box-shadow:2px 2px 5px #99ccff}
+.o5{border:2px hidden;border-top-left-radius:50px;border-top-right-radius:50px;border-bottom-right-radius:50px;border-bottom-left-radius:50px;box-shadow:2px 2px 5px #3399ff}
+.o6{border:2px hidden;border-top-left-radius:50px;border-top-right-radius:50px;border-bottom-right-radius:50px;border-bottom-left-radius:50px;box-shadow:2px 2px 5px #0000ff}
+.o7{border:2px hidden;border-top-left-radius:50px;border-top-right-radius:50px;border-bottom-right-radius:50px;border-bottom-left-radius:50px;box-shadow:2px 2px 5px #000099;}
+
+#parallax1{height:100vh;width:80%;background-image:url("grafika/1.jpg");background-size:cover;display:table;background-attachment:fixed;margin:auto}
+#parallax2{height:70vh;width:80%;background-image:url("grafika/3.jpg");background-size:cover;display:table;background-attachment:fixed;margin-left:auto;margin-right:auto}
+#parallax3{height:70vh;width:80%;background-image:url("grafika/2.jpg");background-size:cover;display:table;background-attachment:fixed;margin-left:auto;margin-right:auto}
+		
+@media(max-width:800px){
+	nav a{font-size:1.0em;}
+	header h1{font-size:2.5em;}
+	#aktualnosci img{width:300px;}
+	#galeria img{width:200px}
+	footer img{width:40px;}
+}	
+@keyframes animacja1 {
+	0%{color:white}
+	9%{color:#ffffa2}
+	18%{color:#ffff18}
+	27%{color:#ff8f03}
+	36%{color:#ff0003}
+	45%{color:#890000}
+	54%{color:#000}
+	63%{color:#890000}
+	72%{color:#ff0003}
+	81%{color:#ff8f03}
+	90%{color:#ffff18}
+	99%{color:white}
