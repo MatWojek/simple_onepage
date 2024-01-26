@@ -5,7 +5,7 @@
 2. CSS
 ### Photo of website: 
 1. Header:
-  ![header](/concept_photo/photo.png)
+  ![header](/concept_photo/photo_1.png)
 2. Gallery:
    ![gallery](/concept_photo/photo_2.png)
 3. Footer
